@@ -92,10 +92,10 @@ p {
 .contacts-link:focus {
   color: #404bbf;
 }
-.hero {
-  width: 1440px;
-  height: 600px;
+.container-hero {
+  padding: 188px 0;
 }
+
 .section-one {
   background-color: #2e2f42;
 }
@@ -109,18 +109,25 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   padding: 188px 0;
+  max-width: 496px;
 }
 
 .button {
+  display: block;
+  margin: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   letter-spacing: 0.04em;
-
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
+  padding-bottom: 188;
   width: 169px;
   height: 56px;
   margin-top: 48px;
