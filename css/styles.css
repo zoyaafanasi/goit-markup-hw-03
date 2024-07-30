@@ -111,7 +111,7 @@ p {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  padding: 188px 0;
+  padding: 188px, 0;
   max-width: 496px;
 }
 
@@ -140,10 +140,21 @@ p {
   background-color: #404bbf;
   cursor: pointer;
 }
-.feature-container {
-  width: 1128px;
-  height: 104px;
+.feture-section {
+  display: flex;
   padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .feature-title {
   font-weight: 500;
@@ -163,7 +174,8 @@ p {
   width: 264px;
   height: 104px;
 }
-.feature-text {
+
+.feature-ul .feature-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -172,8 +184,15 @@ p {
 
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
+.footer-section {
+  display: flex;
+  padding: 120px 0;
 }
 .logo-footer {
+  display: flex;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -186,23 +205,31 @@ p {
   color: #f4f4fd;
 }
 .text-footer {
+  display: flex;
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.ourteam-container {
-  width: 1440px;
-  height: 732px;
-}
-.ourteam {
+.ourteam-section {
+  display: flex;
+  padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.ourteam {
 }
 .ourteam-ul {
   display: flex;
+  gap: 24px;
 }
 .ourteam-li {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  margin-top: 72px;
 }
 .ourteam-title {
   font-weight: 700;
@@ -228,8 +255,16 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.portfolio-section {
+  display: flex;
+  padding: 120px 0;
+}
 .portfolio-ul {
   display: flex;
+  flex-wrap: wrap;
+  padding: 72px 0;
+  gap: 24px;
 }
 .portfolio-title {
   font-size: 36px;
