@@ -93,6 +93,8 @@ p {
   color: #404bbf;
 }
 .container-hero {
+  display: flex;
+  align-items: center;
   padding: 188px 0;
 }
 
@@ -101,6 +103,7 @@ p {
 }
 
 .title {
+  display: flex;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -137,7 +140,11 @@ p {
   background-color: #404bbf;
   cursor: pointer;
 }
-
+.feature-container {
+  width: 1128px;
+  height: 104px;
+  padding: 120px 0;
+}
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -145,6 +152,16 @@ p {
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.feature-ul {
+  display: flex;
+  align-items: center;
+  gap: 24;
+}
+.feature-li {
+  display: block;
+  width: 264px;
+  height: 104px;
 }
 .feature-text {
   font-size: 16px;
@@ -174,8 +191,15 @@ p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+.ourteam-container {
+  width: 1440px;
+  height: 732px;
+}
 .ourteam {
   background-color: #f4f4fd;
+}
+.ourteam-ul {
+  display: flex;
 }
 .ourteam-li {
   background-color: #ffffff;
@@ -203,6 +227,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.portfolio-ul {
+  display: flex;
 }
 .portfolio-title {
   font-size: 36px;
