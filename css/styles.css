@@ -245,8 +245,11 @@ img {
 }
 .teamcard {
   padding: 32px 0;
+  
+ 
 }
 .ourteam-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -255,22 +258,30 @@ img {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   line-height: 1.11;
-  margin-bottom: 72px;
-  margin-bottom: 8px;
 }
 .teammember-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  text-align: center;
+  margin-bottom: 8px
   color: #2e2f42;
+  
+}
+.teammember-img{
+  width: 264px;
+height: 260px;
+padding-top: 0%;
+margin-bottom: 32px;
+
 }
 
 .teammember-post {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .portfolio-section {
