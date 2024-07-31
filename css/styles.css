@@ -20,6 +20,10 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -169,9 +173,9 @@ p {
 }
 .feature-ul {
   display: flex;
-
-  gap: 24;
+  gap: 24px;
 }
+
 .feature-li {
   display: flex;
   align-items: flex-start;
