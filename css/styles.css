@@ -103,7 +103,6 @@ img {
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
-  padding: 188px, 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,16 +191,16 @@ img {
   color: #434455;
 }
 
-.footer {
-  background-color: #2e2f42;
-  margin: auto;
-}
 .footer-section {
   display: flex;
   padding: 100px 0;
   width: 1440px;
   height: 312px;
+  background-color: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .logo-footer {
   display: flex;
   font-family: 'Raleway', sans-serif;
@@ -225,6 +224,9 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.card-footer {
+  padding-left: 156px;
 }
 .ourteam-section {
   display: flex;
