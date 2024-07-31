@@ -95,6 +95,7 @@ p {
 
 .section-one {
   display: flex;
+  padding: 188px 0;
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
@@ -134,6 +135,7 @@ p {
   height: 56px;
   margin-top: 48px;
   border: none;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
