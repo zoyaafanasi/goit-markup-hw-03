@@ -193,6 +193,10 @@ img {
 .footer {
   padding: 100px 0;
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-footer {
