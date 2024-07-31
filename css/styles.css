@@ -92,17 +92,15 @@ p {
 .contacts-link:focus {
   color: #404bbf;
 }
-.container-hero {
-  display: flex;
-  align-items: center;
-  padding: 188px 0;
-}
 
 .section-one {
+  display: flex;
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
   padding: 188px, 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -132,10 +130,10 @@ p {
   border-radius: 4px;
   background-color: #4d5ae5;
   border-radius: 4px;
-
   width: 169px;
   height: 56px;
   margin-top: 48px;
+  border: none;
 }
 .button:hover,
 .button:focus {
@@ -169,13 +167,14 @@ p {
 }
 .feature-ul {
   display: flex;
-  align-items: center;
+
   gap: 24;
 }
 .feature-li {
-  display: block;
-  width: 264px;
-  height: 104px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
   padding-top: 8px;
   width: calc((100% - 72px) / 4);
 }
@@ -195,6 +194,8 @@ p {
 .footer-section {
   display: flex;
   padding: 120px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-footer {
   display: flex;
@@ -224,8 +225,6 @@ p {
   background-color: #f4f4fd;
 }
 
-.ourteam {
-}
 .ourteam-ul {
   display: flex;
   gap: 24px;
@@ -238,6 +237,9 @@ p {
   height: 380px;
   margin-top: 72px;
 }
+.teamcard {
+  padding: 32px 0;
+}
 .ourteam-title {
   font-weight: 700;
   font-size: 36px;
@@ -248,6 +250,7 @@ p {
   letter-spacing: 0.02em;
   line-height: 1.11;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .teammember-name {
   font-weight: 500;
@@ -265,14 +268,14 @@ p {
 }
 
 .portfolio-section {
-  display: flex;
   padding: 120px 0;
 }
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
   padding: 72px 0;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-title {
   font-size: 36px;
@@ -281,6 +284,10 @@ p {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.ourteam-li {
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name {
@@ -289,6 +296,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-txt {
   font-weight: 400;
@@ -296,4 +304,9 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-items {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
